@@ -1,0 +1,44 @@
+.List {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 1vmin);
+  background: #18419c;
+  color: whitesmoke;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
+.switchCnt{
+    background: #c3c3c3;
+}
+
+.mansoryCnt{
+    padding: 1rem;
+}
+
+.button {
+  appearance: none;
+  background: none;
+  font-size: 32px;
+  padding-left: 12px;
+  padding-right: 12px;
+  outline: none;
+  border: 2px solid transparent;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border-radius: 2px;
+  transition: all 0.15s;
+  color: rgb(24, 65, 156);
+  background-color: rgba(99, 76, 182, 0.1);
+  border-radius: 1rem;
+}
